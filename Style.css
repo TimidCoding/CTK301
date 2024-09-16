@@ -1,0 +1,37 @@
+#Poison{
+    color:white;
+}
+#Pompeii{
+    color:blue;
+}
+#Doc{
+    color: orange;
+}
+#Pops{
+    color:yellow;
+    background-color: forestgreen;
+}
+#greenart{
+    background-color: lightgreen;
+}
+.redtext{
+    color:red;
+}
+.bigblu{
+    background-color: lightblue;
+}
+.yellowbg{
+    background-color: yellow;
+}
+
+a{
+    color:green;
+    text-decoration: none;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
