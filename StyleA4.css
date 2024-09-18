@@ -1,0 +1,52 @@
+h1,h2,h3,h4{
+    color:orange;
+    font-style: italic ;
+}
+img{
+    border: 10px solid #000000;
+    padding:15px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* color:white; */
+    background-image: url(RedTech.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: top left;
+}
+#PageTitle{
+
+    color:rgb(149, 10, 10);
+    background-color: rgb(255, 195, 195) ;
+}
+
+#lvl200{
+    background-color: rgba(202, 42, 42, 0.589);
+}
+
+#lvl300{
+    background-color: rgb(235, 57, 48);
+}
+/* .header{ */
+    /* color:orange; */
+    /* font-style: italic ; */
+/* } */
+.Centered{
+    text-align: center;
+}
+.important{
+    color: rgb(205, 0, 0);
+}
+.Sequence{
+    color:rgb(153, 51, 107);
+}
+
+a{
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
