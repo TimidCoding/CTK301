@@ -1,0 +1,21 @@
+
+
+nav li{
+    border:1px, solid, black;
+    /* width: 400px; */
+    padding: 0px;
+    margin:10px;
+    background-color: red;
+    display:inline-block;
+    width:150px;
+    
+}
+nav li a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+nav li a:hover{
+    background-color: maroon;
+}
