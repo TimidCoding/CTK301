@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tanner Johnston</title>
+    <link href="PortfolioStyle.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+</head>
+<div id="Gridr">
+<header>
+    <h1>Tanner illustrates</h1>
+</header>
+<body>
+    <nav>
+        <li><a href="PortfolioGallery.html">Gallery</a></li>
+        <li><a href="AboutMe.html">About Me</a></li>
+        <li><a href="ContactMe.html">Contact Me</a></li>
+    </nav>
+    
+<main>
+<p>I'm Tanner, an illustrator and Game Designer with extensive work with character design and enviromental work.</p>
+
+
+
+</main>
+<section>
+    <div id="IntroCarousel" class="f-carousel">
+        <div class="f-carousel__slide"><img src="Lucky pose.png"></div>
+        <div class="f-carousel__slide"><img src="EnviromentCTK3.png"></div>
+        <div class="f-carousel__slide"><img src="Spritesheet Standard.gif"></div>
+    </div>
+</section>
+<footer>
+<h2>Do not reach out to me for AI or NFT work</h2>
+</footer>
+<script>
+    
+    const container = document.getElementById("IntroCarousel");
+    const options = { infinite: true };
+    new Carousel(container, options);
+</script>
+</body>
+</div>
+</html>

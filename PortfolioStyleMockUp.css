@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(74, 57, 67);
+}
+
+
+header{
+    text-align: center;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(30, 13, 39);
+    
+    background: #EDCAFF;
+    grid-column: span 12;
+    
+}
+main{
+    width: 1200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    grid-column: span 12;
+    
+}
+
+footer{
+    
+    font-size: 20px;
+    color: white;
+    background-color: #36232A;
+    text-align: center;
+    grid-column: span 12;    
+}
+nav{
+    text-align: center;
+    border:10px, solid, rgb(37, 1, 0);
+    grid-column: span 12;
+   background-color: #C498D5;
+ 
+}
+nav ul {
+    list-style-type: none;
+    
+  }
+nav li{
+    text-align: center;
+    border:10px, solid, rgb(37, 1, 0);
+    margin:10px;
+    padding: 5px;
+    background-color: #f5dbff;
+    display:inline-block;
+    width:170px;
+}
+nav li a {
+    width: 150px;
+    padding: 10px;
+    display: block;
+    color: #36232A;
+    font-weight: bold;
+    text-decoration: none;}
+nav li a:hover{
+    background-color: #b599ca;
+
+}
+/* Class */
+#Gridr{
+    margin: 24px auto;
+  width: 1200px;
+  border: solid black;
+  padding:10px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  
+  
+}
+
+#IntroCarousel {
+    grid-column: span 12;
+    width: 1200px;
+  }
+  
+ 
+  #IntroCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background-color:white;
+    margin: 0 auto;    
+  }
+  .f-carousel__slide > img {
+    height:700px;
+    
+    
+  }
