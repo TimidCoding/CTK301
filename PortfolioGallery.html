@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tanner Johnston</title>
+    <link href="PortfolioStyle.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+</head>
+<div id="Gridr">
+<header>
+    <h1>Tanner illustrates</h1>
+</header>
+<body>
+    <nav>
+        <li><a href="TannerPortfolioMain.html">Home</a></li>
+        <li><a href="AboutMe.html">About Me</a></li>
+        <li><a href="ContactMe.html">Contact Me</a></li>
+    </nav>
+    
+<main>
+    <div class="Desc">
+    <section>
+        <div id="CharaCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="Lucky pose.png"></div>
+            <div class="f-carousel__slide"><img src="Amber Piece.png"></div>
+            <div class="f-carousel__slide"><img src="OxnardViper.png"></div>
+            <div class="f-carousel__slide"><img src="Meadow.png"></div>
+        </div>
+    </section>
+
+<p>Here are my works with cheracter design as a focal point. Each of these pieces were done in Clip Studio and this aspect of art is my strongest form of art.</p>
+</div>
+<div class="Desc">
+<section>
+    
+        <div id="EnviroCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="EnviromentCTK3.png"></div>
+            <div class="f-carousel__slide"><img src="Habitat.png"></div>
+            <div class="f-carousel__slide"><img src="EnvironmentCTK.png"></div>
+            <div class="f-carousel__slide"><img src="CTKPROJ3.png"></div>
+            <div class="f-carousel__slide"><img src="Refined Proj 8.png"></div>
+        </div>
+    </section>
+
+<p>These are my enviroment works, each focusing on a different setting with a focus on people living or interacting with these spaces.</p>
+</div>
+
+<div class="Desc">
+    <section>
+        <div id="MiscGal" class="f-carousel">
+            <div class="f-carousel__slide"><img src="3DRender.jpg"></div>
+            <div class="f-carousel__slide"><img src="GDSPackageMockupTannerJohnston.png"></div>
+            <div class="f-carousel__slide"><img src="Assets.png"></div>
+            <div class="f-carousel__slide"><img src="PolarPursuit Game Board.png"></div>
+        </div>
+    </section>
+    <p>This is miscellaneous work of mine, varying from graphic design work to 3D Models and Game Assets</p>
+</div>
+</main>
+
+
+<footer>
+<h2>Do not reach out to me for AI or NFT work</h2>
+</footer>
+<script>
+    
+    const container = document.getElementById("CharaCarousel");
+    const options = { infinite: true };
+    new Carousel(container, options);
+       
+    const container2 = document.getElementById("EnviroCarousel");
+    const options2 = { infinite: true };
+    new Carousel(container2, options2);
+    const container3 = document.getElementById("MiscGal");
+    const options3 = { infinite: true };
+    new Carousel(container3, options3);
+</script>
+</body>
+</div>
+</html>

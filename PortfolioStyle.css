@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(74, 57, 67);
+}
+h3{
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+header{
+    text-align: center;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(30, 13, 39);
+    
+    background: #EDCAFF;
+    grid-column: span 12;
+    
+}
+main{
+    width: 1200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    grid-column: span 12;
+    
+}
+
+footer{
+    
+    font-size: 20px;
+    color: white;
+    background-color: #36232A;
+    text-align: center;
+    grid-column: span 12;    
+}
+nav{
+    text-align: center;
+    
+    grid-column: span 12;
+   background-color: #C498D5;
+   border:10px, solid, rgb(37, 1, 0);
+ 
+}
+nav ul {
+    list-style-type: none;
+    
+  }
+nav li{
+  border-radius: 30px;
+    text-align: center;
+    border:10px, solid, rgb(37, 1, 0);
+    margin:10px;
+    padding: 5px;
+    background-color: #f5dbff;
+    display:inline-block;
+    width:170px;
+}
+nav li a {
+  border-radius: 30px;
+    width: 150px;
+    padding: 10px;
+    display: block;
+    color: #36232A;
+    font-weight: bold;
+    text-decoration: none;}
+nav li a:hover{
+    background-color: #b599ca;
+
+}
+li{
+
+  text-decoration: none;
+}
+/* Class */
+
+#Hullo{
+  font-size:30px ;
+}
+#Gridr{
+    margin: 24px auto;
+  width: 1200px;
+  border: solid black;
+  padding:10px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  
+  
+}
+.ProficientPrograms{
+  border-radius: 30px;
+  margin: 10px ;
+  float: right;
+  width:300px ;
+  border:3px solid #36232A;
+ padding: 10px;
+  background-color: #f5dbff;
+  grid-column: span 2;}
+.SkillsList{
+  border-radius: 30px;
+  margin: 10px;
+  float: left;
+  width: 300px ;
+  border:3px solid #36232A;
+ padding: 10px;
+  background-color: #f5dbff;
+  grid-column: span 2;
+}
+.Desc{
+  border-radius: 30px;
+  
+  font-size: 20px;
+  padding: 1em;
+  margin: 1em;
+  background-color: #C498D5;
+}
+#Me{
+  border-radius: 30px;
+  margin-right: 5px;
+  float: left;
+  height: 500px;
+  border: 5px solid #36232A;
+  grid-column: span 4;
+}
+.Bio{
+  border-radius: 30px;
+  font-size: 20px;
+  float:right;
+  padding: 20px;
+  grid-column: span 4;
+  margin: 20px;
+  background-color: #b599ca;
+ }
+
+#IntroCarousel {
+    grid-column: span 12;
+    /* width: 1200px; */
+  }
+  
+ 
+  #IntroCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    margin: 0 auto;    
+  }
+  #IntroCarousel  .f-carousel__slide > img {
+    height:400px;
+    border: 3px solid #36232A;
+    border-radius: 30px;
+  }
+ #CharaCarousel{
+  grid-column: span 12;
+ }
+ #CharaCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  
+  margin: 0 auto;    
+}
+
+ #CharaCarousel .f-carousel__slide > img {
+  height:700px;
+  border: 3px solid #36232A;
+  border-radius: 30px;
+  
+}
+
+  #EnviroCarousel {
+    grid-column: span 12;
+    
+  }
+  #EnviroCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    
+    margin: 0 auto;    
+  }
+  #EnviroCarousel .f-carousel__slide > img {
+    height:700px;
+    border: 3px solid #36232A;
+    border-radius: 30px;
+    
+  }
+  #MiscGal{
+    grid-column: span 12;
+  }
+  #MiscGal .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    
+    margin: 0 auto;    
+  }
+  #MiscGal .f-carousel__slide > img {
+    height:500px;
+    border: 3px solid #36232A;
+    border-radius: 30px;
+    
+  }
+  .Contact{
+    border-radius: 30px;
+    margin: 10px;
+    
+    border:3px solid #36232A;
+   padding: 10px;
+    background-color: #f5dbff;
+    grid-column: span 2;
+  }
+  
+  a {
+    color: #36232A;
+    text-decoration: none;
+    font-weight: bold;
+  }
