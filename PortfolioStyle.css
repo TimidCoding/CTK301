@@ -38,7 +38,7 @@ nav{
     
     grid-column: span 12;
    background-color: #C498D5;
-   border:10px, solid, rgb(37, 1, 0);
+   
  
 }
 nav ul {
@@ -48,7 +48,7 @@ nav ul {
 nav li{
   border-radius: 30px;
     text-align: center;
-    border:10px, solid, rgb(37, 1, 0);
+    
     margin:10px;
     padding: 5px;
     background-color: #f5dbff;
